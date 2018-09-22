@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="6" failures="1" name="TestSuite" time="42.074" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\DEV\Workspace\dcr-tests-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="indicador.*Test"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\DEV\Workspace\dcr-tests-api"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\DIEGO~1.COR\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\starcode\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\ConEmu\ConEmu\Scripts;C:\Program Files\ConEmu;C:\Program Files\ConEmu\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\GRADLE\gradle-4.8\bin;C:\starcode\apache-maven-3.5.4\bin\;C:\Program Files\Git\cmd;C:\Users\diego.cordeiro\scoop\shims;C:\Users\diego.cordeiro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_161\bin;;."/>
+    <property name="maven.conf" value="C:\starcode\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\starcode\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\diego.cordeiro"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="diego.cordeiro"/>
+    <property name="java.class.path" value="C:\starcode\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_161\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=indicador.*Test clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\starcode\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="indicador.ValidaIndicadorConfiguracaoTest" name="feature" time="13.654"/>
+  <testcase classname="indicador.ValidaIndicadorPossiveisFilhosTest" name="feature" time="5.715"/>
+  <testcase classname="indicador.ValidaIndicadorProdutoTest" name="feature" time="12.347"/>
+  <testcase classname="indicador.ValidaPostIndicadorOrdenaIndicadorTest" name="feature" time="3.471"/>
+  <testcase classname="indicador.ValidaPostIndicadorTest" name="feature" time="3.441"/>
+  <testcase classname="indicador.ValidaPutIndicadorTest" name="feature" time="3.446">
+    <failure message="java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at steps.IndicadorSteps.validarEnvioPutApiIndicador(IndicadorSteps.java:152)
+	at ✽.Entao valido se o put foi enviado com sucesso para a api indicador(src/test/resources/indicador/ValidaPutIndicador.feature:10)
+Caused by: java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at steps.IndicadorSteps.validarEnvioPutApiIndicador(IndicadorSteps.java:152)
+	at ✽.Entao valido se o put foi enviado com sucesso para a api indicador(src/test/resources/indicador/ValidaPutIndicador.feature:10)
+</failure>
+    <system-out>
+1 Scenarios (&amp;#27;[32m1 passed&amp;#27;[0m)
+2 Steps (&amp;#27;[32m2 passed&amp;#27;[0m)
+0m3.435s
+
+19:19:07.672 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Registering scope &apos;cucumber-glue&apos; with implementation [cucumber.runtime.java.spring.GlueCodeScope@4067634b]
+19:19:07.673 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;setup.TestRule&apos;
+19:19:07.674 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;setup.TestRule&apos;
+19:19:07.675 [main] INFO utils.ReportUtils - Executando Cenario de Teste: Validar put API Indicador
+19:19:07.729 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating instance of bean &apos;steps.IndicadorSteps&apos;
+19:19:07.729 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Finished creating instance of bean &apos;steps.IndicadorSteps&apos;
+19:19:07.730 [main] INFO utils.ReportUtils - Dado que gere os registros validos para enviar para api indicador put
+19:19:07.767 [main] INFO utils.ReportUtils - Json Gerado com sucesso
+19:19:07.815 [main] INFO utils.ReportUtils - Entao valido se o put foi enviado com sucesso para a api indicador
+19:19:07.998 [main] ERROR utils.RESTUtils - Endereço: https://bda-indicador-service-dcr-dev.agiplan.com.br/indicador/58
+19:19:07.998 [main] ERROR utils.RESTUtils - Enviando PUT: {&quot;dataFinal&quot;:&quot;2018-09-19&quot;,&quot;dataInicial&quot;:&quot;2018-09-04&quot;,&quot;grupoFontePagadoraList&quot;:[{&quot;codigo&quot;:4,&quot;nome&quot;:&quot;SIAPE&quot;},{&quot;codigo&quot;:7,&quot;nome&quot;:&quot;CÂMARA&quot;},{&quot;codigo&quot;:11,&quot;nome&quot;:&quot;FORÇAS ARMADAS&quot;}],&quot;indicadorCodigo&quot;:58,&quot;indicadorFilhoList&quot;:[14,22,49],&quot;manterSalario&quot;:1,&quot;nomeExibicao&quot;:&quot;indicador automatizado alterado 18\/09\/2018 19:19:07&quot;,&quot;ordem&quot;:0,&quot;painel&quot;:true,&quot;produtoCodigoList&quot;:[45,48,51],&quot;relogio&quot;:true,&quot;valorReferencia&quot;:&quot;valor referencia automatizado alterado 18\/09\/2018 19:19:07&quot;}
+19:19:07.998 [main] ERROR utils.RESTUtils - Codigo de Retorno PUT: 400
+19:19:10.998 [main] ERROR utils.RESTUtils - Erro: sun.net.www.protocol.http.HttpURLConnection$HttpInputStream@7de2bdc7
+19:19:10.998 [main] ERROR utils.RESTUtils - Codigo do erro: 400
+19:19:10.999 [main] INFO utils.ReportUtils - JSONObject[&quot;tipo&quot;] not found.
+19:19:11.041 [main] ERROR utils.RESTUtils - JSONObject[&quot;tipo&quot;] not found.
+19:19:11.042 [main] INFO utils.ReportUtils - Finalizando Teste Automatizado
+</system-out>
+  </testcase>
+</testsuite>

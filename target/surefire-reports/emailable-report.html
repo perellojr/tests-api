@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">5</td><td class="num">0</td><td class="num attn">1</td><td class="num">42,753</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">indicador.ValidaPutIndicadorTest</td><td><a href="#m0">feature</a></td><td rowspan="1">1537309147671</td><td rowspan="1">3443</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">indicador.ValidaIndicadorConfiguracaoTest</td><td><a href="#m1">feature</a></td><td rowspan="1">1537309108853</td><td rowspan="1">13651</td></tr><tr class="passedodd"><td rowspan="1">indicador.ValidaIndicadorPossiveisFilhosTest</td><td><a href="#m2">feature</a></td><td rowspan="1">1537309122564</td><td rowspan="1">5715</td></tr><tr class="passedeven"><td rowspan="1">indicador.ValidaIndicadorProdutoTest</td><td><a href="#m3">feature</a></td><td rowspan="1">1537309128309</td><td rowspan="1">12347</td></tr><tr class="passedodd"><td rowspan="1">indicador.ValidaPostIndicadorOrdenaIndicadorTest</td><td><a href="#m4">feature</a></td><td rowspan="1">1537309140700</td><td rowspan="1">3472</td></tr><tr class="passedeven"><td rowspan="1">indicador.ValidaPostIndicadorTest</td><td><a href="#m5">feature</a></td><td rowspan="1">1537309144204</td><td rowspan="1">3441</td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">indicador.ValidaPutIndicadorTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar put API Indicador</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">cucumber.runtime.CucumberException: java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: A validacao do PUT para esta API falhou, por favor verifique
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at steps.IndicadorSteps.validarEnvioPutApiIndicador(IndicadorSteps.java:152)
+	at ✽.Entao valido se o put foi enviado com sucesso para a api indicador(src/test/resources/indicador/ValidaPutIndicador.feature:10)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">indicador.ValidaIndicadorConfiguracaoTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar API configuracao do modulo de indicadores</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">indicador.ValidaIndicadorPossiveisFilhosTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar API indicador possiveis filhos</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">indicador.ValidaIndicadorProdutoTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar API Produto do modulo de indicadores</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">indicador.ValidaPostIndicadorOrdenaIndicadorTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar post API Indicador ordenacao indicador</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">indicador.ValidaPostIndicadorTest#feature</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Validar post API Indicador</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

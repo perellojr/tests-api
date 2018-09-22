@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <properties>
+        <property name="pattern">[%d{HH:mm:ss}] %-5p (%F:%L) - %m%n</property>
+        <property name="basePath">evidence/logs</property>
+    </properties>
+    <appenders>
+        <RollingFile name="reportPortalLoggerFile" fileName="${basePath}/Originacao.log"
+                     filePattern="${basePath}/Originacao-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="${pattern}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+        <ReportPortalLog4j2Appender name="ReportOriginacao">
+            <PatternLayout pattern="${pattern}" />
+        </ReportPortalLog4j2Appender>
+    </appenders>
+    <loggers>
+        <root level="all">
+            <appender-ref ref="reportPortalLoggerFile"/>
+            <appender-ref ref="ReportPortalAppender"/>
+        </root>
+    </loggers>
+</configuration>
