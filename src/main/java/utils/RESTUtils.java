@@ -28,7 +28,7 @@ public class RESTUtils {
 	public boolean sendPost(String requestUrl, String payload, String codUsuario, String cpfUsuario) throws IOException {
 		HttpURLConnection connection = null;
 		try {
-			String cookie = ".AGIPLAN-AUTH-PORTAL-ASPNETCORE=" + codUsuario + "|" + cpfUsuario;
+			String cookie = ".=" + codUsuario + "|" + cpfUsuario;
 			URL url = new URL(requestUrl);
 			connection = (HttpURLConnection) url.openConnection();
 			connection.setDoInput(true);
@@ -198,7 +198,7 @@ public class RESTUtils {
 	public boolean sendPut(String requestUrl, String data, String cpfUsuario, String codUsuario) throws IOException {
 		HttpURLConnection connection = null;
 		try {
-			String cookie = ".AGIPLAN-AUTH-PORTAL-ASPNETCORE=" + codUsuario + "|" + cpfUsuario;
+			String cookie = ".=" + codUsuario + "|" + cpfUsuario;
 			URL url = new URL(requestUrl);
 			connection = (HttpURLConnection) url.openConnection();
 			connection.setRequestMethod("PUT");
